@@ -88,6 +88,7 @@ public class ShipController : MonoBehaviour
     private void OnShipDestroyed()
     {
         isDestroyed = true;
+        SetGunsActive(false);
     }
 
 }
